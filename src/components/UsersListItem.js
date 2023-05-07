@@ -20,7 +20,7 @@ const UsersListItem = ({ user }) => {
       >
         <GoTrashcan />
       </Button>
-      {error && <div>Error deleting user.</div>}
+      {error && <div>Error deleting user</div>}
       {user.name}
     </Fragment>
   );
